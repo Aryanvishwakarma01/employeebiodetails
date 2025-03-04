@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f0ebe7;
+}
+.navbar{
+    height:35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: grey; */
+    align-items: center;
+    padding: 30px 25px;
+    font-size: 15px;
+}
+.navbar .leftnav{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: white;
+    padding: 6px 10px;
+}
+.navbar .rightnav{
+    display:flex;
+    gap:5px;
+}
+.rightnav2 img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+
+.navbar .rightnav1{
+    /* display: flex; */
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: white;
+    padding: 6px 10px;
+}
+.navbar .rightnav2{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: white;
+    padding: 2px 2px;
+    gap:5px;
+    padding-left: 8px;
+    align-items: center;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    padding: 10px 20px;
+    gap:15px;
+}
+.home1{
+    background-color: white;
+    width: 30%;
+    height: 75vh;
+    border:2px solid rgb(211, 207, 207);
+    border-radius:16px;
+}
+.home img{
+    width: 100%;
+    height: 100px;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    position: relative;
+}
+.home1 #profile{
+    border:3.5px solid white;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    /* position:absolute; */
+    margin-left: 30px;
+    margin-top:-50px;
+}
+.home2{
+    /* background-color: orange; */
+    width: 70%;
+    height:30px;      
+    
+    /* border:2px solid black; */
+    border-radius:15px;
+}
+.home2 ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 20px;
+}
+.home2 ul li{
+    /* border:2px solid white; */
+    border-radius: 30px;
+    padding: 5px 12px;
+    background-color: white;
+}
+.home2 ul li:hover{
+    /* border:2px solid white; */
+    border-radius: 30px;
+    padding: 5px 12px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    /* text-align: center; */
+    width: 100%;
+    gap:10px;
+
+}
+.basic{
+    display: flex;
+    gap:10px;
+    font-size: 14px;
+    align-items: center;
+}
+.basic i{
+    padding-right: 10px;
+    border: 2px solid rgb(228, 224, 224);
+    border-radius: 50px;
+    padding: 2px 6px;
+    background-color: #e9e5e2;
+}
+.info1{
+    display: flex;
+    gap:20px;
+}
+.info1 p{
+    font-size: 10px;
+    margin-top: 4px;
+    background-color: rgb(238, 235, 235);
+    border-radius: 20px;
+    padding: 0px 3px;
+}
+.info2{
+    width: 95px;
+}
+.info2 p{
+    font-size: 12px;
+    color:blue;
+    padding: 0px 5px;
+    border-radius: 20px;
+    background-color: rgb(238, 235, 235);
+}
+.info3{
+    font-weight: 800;
+}
+.home3{
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(211, 207, 207);
+    margin-top: 20px;
+    border-radius: 18px;
+    background-color: white;
+}
+.home3nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50px;
+    padding:10px;
+}
+.home3navpart1{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home3navpart1 p{
+    font-size: 18px;
+}
+.home3navpart1 i{
+    border-radius: 50px;
+    padding: 5px;
+    color:rgb(34, 146, 211);
+
+    background-color: #99ebe4d2;
+}
+.home3navpart2 i{
+    border: 2px solid #cacecdd2;
+    border-radius: 50px;
+    padding: 5px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+}
+.data1, .data2, .data3, .data4{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 9px 80px;
+}
+.data hr{
+    width: 82%;
+    align-self: center;
+    opacity: 50%;
+}
