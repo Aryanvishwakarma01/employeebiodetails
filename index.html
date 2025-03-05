@@ -10,6 +10,12 @@
 />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <script>
+        const copyfunc = () => {
+            let ph=document.querySelector("#phno").innerText;
+            navigator.clipboard.writeText(ph)
+        }
+    </script>
 </head>
 <body>
     <main>
@@ -36,7 +42,7 @@
                         <div class="information">
                             <div class="info1">
                                 <h3>George Arafat</h3>
-                                <p>987654321 <i class="ri-file-copy-line"></i></p>
+                                <p id="phno">987654321 <i class="ri-file-copy-line" style="cursor: pointer;" onclick="copyfunc()"></i></p>
                             </div>
                             <div class="info2">
                                 <p>Junior Technician</p>
@@ -48,8 +54,8 @@
                                 <i class="ri-mail-line"></i>
                                  hellogeorge@gmail.com
                             </div>
-                            <div class="basic">
-                                <i class="ri-smartphone-line"></i>
+                            <div class="basic" >
+                                <i class="ri-smartphone-line "></i>
                                 987654321
                             </div>
                             <div class="basic">
